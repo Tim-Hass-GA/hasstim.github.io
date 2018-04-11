@@ -1,0 +1,44 @@
+/* LOCAL CSS */
+html, body {
+ /* margin: 0 auto; */
+ /* text-align: center; */
+ font-family: 'Bitter', serif;
+}
+
+/* header {} */
+/* .container {} */
+
+.me {
+  text-align: left;
+  margin: .15em;
+}
+
+img.me {
+  border: solid 2px white;
+  height: 10rem;
+  width: auto;
+  margin: 1em;
+  border-radius: 60em;
+}
+
+.skills, .projects {
+  text-align: center;
+}
+
+.card .card-content {
+  padding: .25em;
+}
+
+/* .card .projects {
+  padding: .25em;
+  width: 3em;
+} */
+
+/* .flicker-images {} */
+#flickr_logo {
+  height: 2em;
+  width: auto;
+  padding: .5em 0 0;
+}
+
+/* footer {} */
