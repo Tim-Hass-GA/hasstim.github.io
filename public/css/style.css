@@ -14,11 +14,11 @@ html, body {
 }
 
 img.me {
-  border: solid 2px white;
+  border: solid 2px grey;
   height: 10rem;
-  width: auto;
+  /* width: auto; */
   margin: 1em;
-  border-radius: 60em;
+  border-radius: 40em;
 }
 
 .skills, .projects {
