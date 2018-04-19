@@ -19,10 +19,11 @@ React, Redux, Node, Express, Django, Postgresql, MongoDB
 ## ​INDUSTRY EXPERIENCE
 WEB DEVELOPMENT IMMERSIVE​, GENERAL ASSEMBLY,​ ​Seattle, WA​ ​(Jan 2018–April 2018)
 <!-- Project 1 - Pooper Scooper - HTML5 Canvas Game, where users clean up after their dog. -->
-- Project 1 - Tic-Tac-Toe - HTML5 Javascript Tic-Tac-Toe Game.
-- Project 2 - EIE.io Backyard Garden App - Express/Node/Postgres, allows users to create and track garden activities.
-- Project 3 - TaskMaster - React/Redux - Project Management Tool, allows users to create and track project activities.
-- Project 4 - TBEY - Django/Python - Online Store, allows users to create a vendor account and/or order products.
+<!-- - Tic-Tac-Toe - HTML5/Javascript, Tic-Tac-Toe Game. -->
+- EIE.io Backyard Garden App - Express/Node/Postgres, allows users to create and track garden activities.
+- TaskMaster - React/Redux - Project Management Tool, allows users to create and track project activities.
+- TBEY - Django/Python - Online Store, allows users to create a vendor account and/or order products.
+- Dino-Diggs - React/Redux - Cohort Hack-a-thon, dinosaur users can book a nice cave to stay in for their trip.
 
 ### Edmonds Community College, Lynnwood, WA (​June 2010 - Jan 2018​)
 Learning Support Systems Administrator​ (Canvas by Instructure)
