@@ -4,11 +4,11 @@ Tim Hass full.stack.web.dev
 hasstimh@gmail.com​
 SEATTLE WA
 
-[link to Portfolio Site!](www.hasstimh.com)
-​
-[link to Linkedin](https://www.linkedin.com/in/tim-h-hass/)
+[Portfolio Site!](www.hasstimh.com)​
 
-[link to GitHub](https://github.com/Tim-Hass-GA)
+[Linkedin](https://www.linkedin.com/in/tim-h-hass/)
+
+[GitHub](https://github.com/Tim-Hass-GA)
 
 As a Full Stack Developer, I incorporate my experience with systems to deliver innovative solutions for end users. I'm fascinated by the creative process. It’s truly magical to create something from nothing, to use words and symbols to bring people’s ideas to life. I enjoy learning and problem solving, and want to use my talents to impact people’s lives in a positive way.
 
