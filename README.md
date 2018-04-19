@@ -63,6 +63,7 @@ Gas Turbine Systems Technician (Electrical) 2nd Class/E5/GSE2​, US NAVY (June 
 ## ​EDUCATION
 GENERAL ASSEMBLY, ​Seattle, WA​ ​(Jan 2018 - April 2018)
 - Web Development Immersive
+
 Edmonds Community College​, Lynnwood, WA (Aug 2009 –May 2012)
 Computer Information Systems
 - Associate of Technical Arts: Web Application Developer & Database Information Technologies Business Systems Analyst Certification
