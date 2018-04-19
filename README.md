@@ -5,13 +5,14 @@ hasstimh@gmail.com​
 SEATTLE WA
 
 Portfolio website
-​www.hasstimh.com
+[link to Portfolio website!](www.hasstimh.com)
+​
 
 Linked In
-https://www.linkedin.com/in/tim-h-hass/
+[link to Linkedin](https://www.linkedin.com/in/tim-h-hass/)
 
 GitHub
-https://github.com/Tim-Hass-GA
+[link to GitHub](https://github.com/Tim-Hass-GA)
 
 As a Full Stack Developer, I incorporate my experience with systems to deliver innovative solutions for end users. I'm fascinated by the creative process. It’s truly magical to create something from nothing, to use words and symbols to bring people’s ideas to life. I enjoy learning and problem solving, and want to use my talents to impact people’s lives in a positive way.
 
@@ -21,7 +22,8 @@ React, Redux, Node, Express, Django, Postgresql, MongoDB
 
 ## ​INDUSTRY EXPERIENCE
 WEB DEVELOPMENT IMMERSIVE​, GENERAL ASSEMBLY,​ ​Seattle, WA​ ​(Jan 2018–April 2018)
-Project 1 - Fuzzy-Winner (working title) - HTML5 Canvas Game, where users clean up after their dog.
+<!-- Project 1 - Pooper Scooper - HTML5 Canvas Game, where users clean up after their dog. -->
+Project 1 - Tic-Tac-Toe - HTML5 Javascript Tic-Tac-Toe Game.
 Project 2 - EIE.io Backyard Garden App - Express/Node/Postgres, allows users to create and track garden activities.
 Project 3 - TaskMaster - React/Redux - Project Management Tool, allows users to create and track project activities.
 Project 4 - TBEY - Django/Python - Online Store, allows users to create a vendor account and/or order products.
