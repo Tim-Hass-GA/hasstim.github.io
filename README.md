@@ -4,7 +4,7 @@ Tim Hass full.stack.web.dev
 hasstimh@gmail.com​
 SEATTLE WA
 
-[Portfolio Site](www.hasstimh.com)​
+[Portfolio Site](https://www.hasstimh.com)​
 
 [Linkedin](https://www.linkedin.com/in/tim-h-hass/)
 
