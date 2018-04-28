@@ -19,9 +19,11 @@
   </head>
   <body>
       <header>
+        <!-- TODO: work on mobile nav -->
         <nav class="grey darken-3" role="navigation">
           <div class="nav-wrapper container grey darken-3">
             <a id="logo-container" href="#" class="brand-logo">Tim Hass</a>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
               <li><a href="#projects">Projects</a></li>
               <li><a href="#skills">Skills</a></li>
@@ -29,25 +31,26 @@
               <li><a href="#flickr">Contact</a></li>
               <li><a href="./public/resume/TimHass_Resume.pdf" download>Download Resume</a></li>
             </ul>
-
-            <ul id="nav-mobile" class="side-nav">
-              <!-- <a id="logo-container" href="#" class="brand-logo">Tim Hass</a> -->
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#interests">Interests</a></li>
-              <li><a href="#flickr">Contact</a></li>
-              <li><a href="./public/resume/TimHass_Resume.pdf" download>Download Resume</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
           </div>
         </nav>
+
+            <ul id="nav-mobile" class="side-nav ">
+              <!-- <a id="logo-container" href="#" class="brand-logo">Tim Hass</a> -->
+              <li><a class="nav-mobile-close" href="#projects">Projects</a></li>
+              <li><a class="nav-mobile-close" href="#skills">Skills</a></li>
+              <li><a class="nav-mobile-close" href="#interests">Interests</a></li>
+              <li><a class="nav-mobile-close" href="#flickr">Contact</a></li>
+              <li><a class="subheader">Resume</a></li>
+              <li><a class="nav-mobile-close" href="./public/resume/TimHass_Resume.pdf" download>Download Resume</a></li>
+            </ul>
+
       </header>
 
       <div class="container">
       <main>
         <div class="parallax-container">
           <div class="me hide-on-med-and-down">
-            <img class="me" src="./public/img/photo_0.png">
+            <img class="me" src="./public/img/photo_0.png" title="full.stack.web.dev" alt="personal headshot of me">
           </div>
           <div class="parallax"><img src="./public/img/pool-of-leaves.jpg"></div>
         </div>
@@ -57,6 +60,8 @@
             <div class="col s12">
               <div class="project-details">
                 <h3 class="projects">Projects</h3>
+                <!-- TODO: work on carousel -->
+                <!-- <div id="projects-carousel" class="carousel carousel-slider grey darken-3" data-indicators="true"> -->
                 <div id="projects-carousel" class="carousel grey darken-3" data-indicators="true">
                 <!-- <div id="projects-carousel" class="carousel"> -->
 
@@ -70,7 +75,7 @@
                           <a href="https://tim-hass-ga.github.io/fuzzy-winner/" target="_blank" title="HTML5 Canvas Game - Project 1">HTML5 Game</a>
                           <i class="material-icons right">more_vert</i></span>
                           <div class="black-text">
-                            <span>
+                            <span title="Technology Used">
                               Tech Used:
                               HTML5<span class="mdi mdi-18px mdi-language-html5"></span>
                               CSS3<span class="mdi mdi-18px mdi-language-css3"></span>
@@ -89,15 +94,16 @@
                   <div class="carousel-item" href="#two!">
                     <div class="card projects">
                       <div class="card-image">
-                        <img class="activator" src="./public/img/sample-1.jpg">
+                        <img class="activator" src="./public/img/tic-tac-toe.png" alt="image representation of tic-tac-toe game" title="Click to find out more about this HTML5 Tic-Tac-Toe Game">
                       </div>
                       <div class="card-content">
                         <span class="card-title activator">
                           <a href="https://tim-hass-ga.github.io/tic-tac-toe/" target="_blank" title="HTML5 Tic-Tac-Toe Game">Tic-Tac-Toe</a>
-                          <i class="material-icons right">more_vert</i></span>
+                          <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
                           <div class="black-text">
-                            <span>
-                              Tech Used:
+                            <span title="Technology Used">
+                              <!-- Tech Used: -->
                               HTML5<span class="mdi mdi-18px mdi-language-html5"></span>
                               CSS3<span class="mdi mdi-18px mdi-language-css3"></span>
                               Javascript<span class="mdi mdi-18px mdi-language-javascript"></span>
@@ -105,8 +111,13 @@
                           </div>
                       </div>
                       <div class="card-reveal">
-                        <span class="card-title black-text">Tic-Tac-Toe<i class="material-icons right">close</i></span>
-                        <p class="black-text">HTML5, CSS and Javascript Tic-Tac-Toe game - classic 2 player game.<a href="https://github.com/Tim-Hass-GA/tic-tac-toe" target="_blank" title="HTML5 Tic-Tac-Toe Game"><span class="mdi mdi-24px mdi-github-box"></span></a></p>
+                        <span class="card-title black-text"><i class="tiny material-icons right">close</i>Tic-Tac-Toe</span>
+                        <p class="black-text">HTML5, CSS and Javascript Tic-Tac-Toe game
+                          - classic 2 player game.<br>
+                          <a href="https://github.com/Tim-Hass-GA/tic-tac-toe" target="_blank" title="HTML5 Tic-Tac-Toe Game (GitHub Repo)">
+                            <span class="mdi mdi-24px mdi-github-box"></span>Repo</a> |
+                          <a href="https://tim-hass-ga.github.io/tic-tac-toe/" target="_blank" title="Play the HTML5 Tic-Tac-Toe Game with your friend">Tic-Tac-Toe</a>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -114,15 +125,16 @@
                   <div class="carousel-item" href="#three!">
                     <div class="card projects">
                       <div class="card-image">
-                        <img class="activator" src="./public/img/pooper-scooper.jpeg">
+                        <img class="activator" src="./public/img/to_do_list.jpg" alt="image of a to do list" title="Find out more about this jQuery To Do List example.">
                       </div>
                       <div class="card-content">
                         <span class="card-title activator">
                           <a href="https://tim-hass-ga.github.io/jquery-todo-list/" target="_blank" title="jQuery To Do List">To Do List</a>
-                          <i class="material-icons right">more_vert</i></span>
+                          <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
                           <div class="black-text">
-                            <span>
-                              Tech Used:
+                            <span title="Technology Used">
+                              <!-- Tech Used: -->
                               HTML5<span class="mdi mdi-18px mdi-language-html5"></span>
                               CSS3<span class="mdi mdi-18px mdi-language-css3"></span>
                               Javascript<span class="mdi mdi-18px mdi-language-javascript"></span>
@@ -130,8 +142,15 @@
                           </div>
                       </div>
                       <div class="card-reveal">
-                        <span class="card-title black-text">To Do List<i class="material-icons right">close</i></span>
-                        <p class="black-text">HTML5, CSS and jQuery To Do List allows users to create a list of todo's, orgainize the list and move to a completed list.<a href="https://github.com/Tim-Hass-GA/jquery-todo-list" target="_blank" title="jQuery To Do List"><span class="mdi mdi-24px mdi-github-box"></span></a></p>
+                        <span class="card-title black-text"><i class="tiny material-icons right">close</i>To Do List</span>
+                        <p class="black-text">HTML5, CSS and jQuery To Do List
+                          allows users to create a list of todo's, orgainize
+                          the items list (drag and drop) and click to move
+                          items to a completed list. No data is saved with this example.
+                          <a href="https://github.com/Tim-Hass-GA/jquery-todo-list" target="_blank" title="jQuery To Do List (GitHub Repo)">
+                            <span class="mdi mdi-24px mdi-github-box">Repo</span></a> |
+                          <a href="https://tim-hass-ga.github.io/jquery-todo-list/" target="_blank" title="Try out the jQuery To Do List">To Do List</a>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -144,9 +163,10 @@
                       <div class="card-content">
                         <span class="card-title activator">
                           <a href="https://github.com/Tim-Hass-GA/dino-digs" target="_blank" title="Hack-A-Thon Project">Dino-Diggs</a>
-                          <i class="material-icons right">more_vert</i></span>
+                          <i class="material-icons right">more_vert</i>
+                        </span>
                           <div class="black-text">
-                            <span>
+                            <span title="Technology Used">
                               Tech Used:
                               HTML5<span class="mdi mdi-18px mdi-language-html5"></span>
                               React<span class="mdi mdi-18px mdi-react"></span>
@@ -164,90 +184,99 @@
                   </div> -->
 
                   <div class="carousel-item" href="#five!">
-                    <div class="card">
+                    <div class="card projects">
                       <div class="card-image">
-                        <img class="activator" src="./public/img/garden-app.jpeg">
+                        <img class="activator" src="./public/img/garden-app.jpeg" alt="image of a person planting seeds" title="Find out more about this Full Stack Node/Express app.">
                       </div>
                       <div class="card-content">
                         <span class="card-title activator">
                           <a href="https://eieio-garden-app.herokuapp.com/" target="_blank" title="Eie.io Garden App - Project 2">Garden App</a>
-                          <i class="material-icons right">more_vert</i></span>
+                          <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
                           <div class="black-text">
-                            <span>
-                              Tech Used:
+                            <span title="Technology Used">
+                              <!-- Tech Used: -->
                               HTML5<span class="mdi mdi-18px mdi-language-html5"></span>
-                              CSS3<span class="mdi mdi-18px mdi-language-css3"></span>
+                              <!-- CSS3<span class="mdi mdi-18px mdi-language-css3"></span> -->
                               Bootstrap<span class="mdi mdi-18px mdi-bootstrap"></span>
-                              Node.js<span class="mdi mdi-18px mdi-nodejs"></span>
+                              Node<span class="mdi mdi-18px mdi-nodejs"></span>
+                              Postgres<span class="mdi mdi-18px mdi-database"></span>
                             </span>
                           </div>
                       </div>
                       <div class="card-reveal">
-                        <span class="card-title black-text">EIE.io (eieio) Garden App<i class="material-icons right">close</i></span>
-                        <p class="black-text">This app is designed to help users track what is planted in their backyard garden.
-                          This Full Stack Node/Express Web App also uses the GrowStuff API.
-                          <a href="https://github.com/Tim-Hass-GA/eie.io_project_2" target="_blank" title="Eie.io Garden App - Project 2">
-                            <span class="mdi mdi-24px mdi-github-box"></span></a></p>
-                          <!-- https://github.com/Tim-Hass-GA/eie.io_project_2 -->
+                        <span class="card-title black-text"><i class="tiny material-icons right">close</i>EIE.io (eieio) Garden App</span>
+                        <p class="black-text">This Node/Express Full Stack Web App
+                          is designed to help users track what is planted in their
+                          backyard garden. The app also uses the GrowStuff API.<br>
+                          <a href="https://github.com/Tim-Hass-GA/eie.io_project_2" target="_blank" title="Eie.io Garden App - Project 2 (GitHub Repo)">
+                            <span class="mdi mdi-24px mdi-github-box">Repo</span></a> |
+                          <a href="https://eieio-garden-app.herokuapp.com/" target="_blank" title="Vist the Eie.io Garden App and create an account">Garden App</a>
+                        </p>
                       </div>
                     </div>
                   </div>
 
                   <div class="carousel-item" href="#six!">
-                    <div class="card">
+                    <div class="card projects">
                       <div class="card-image">
-                        <img class="activator" src="./public/img/task-master.jpg">
+                        <img class="activator" src="./public/img/task-master.jpg" alt="image dipicting a kanban board with sticky notes" title="Find out more about this MERN Stack Project Management App">
                       </div>
                       <div class="card-content">
                         <span class="card-title activator">
                           <a href="https://kanbantaskmaster.herokuapp.com/" target="_blank" title="Task Master - Project 3 - Group Project">Task Master</a>
-                          <i class="material-icons right">more_vert</i></span>
+                          <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
                           <div class="black-text">
-                            <span>
-                              Tech Used:
+                            <span title="Technology Used">
+                              <!-- Tech Used: -->
                               HTML5<span class="mdi mdi-18px mdi-language-html5"></span>
-                              React<span class="mdi mdi-18px mdi-react"></span>
+                              Redux/React<span class="mdi mdi-18px mdi-react"></span>
                               Material UI<span class="mdi mdi-18px mdi-material-ui"></span>
-                              Redux
+                              MongoDB<span class="mdi mdi-18px mdi-database"></span>
                             </span>
                           </div>
                       </div>
                       <div class="card-reveal">
-                        <span class="card-title black-text">Task Master<i class="material-icons right">close</i></span>
+                        <span class="card-title black-text"><i class="tiny material-icons right">close</i>Task Master</span>
                         <p class="black-text">This React/Redux single page app was designed to help users track
-                          the status of their current projects and tasks. This was a group project with Zakir B and Dan V.
-                          <a href="https://github.com/Tim-Hass-GA/workflow-organizer-project-3" target="_blank" title="Task Master - Project 3 - Group Project">
-                            <span class="mdi mdi-24px mdi-github-box"></span></a></p>
-                          <!-- https://github.com/Tim-Hass-GA/workflow-organizer-project-3 -->
+                          the status of their current projects and tasks. This was a group project with Zakir B and Dan V.<br>
+                          <a href="https://github.com/Tim-Hass-GA/workflow-organizer-project-3" target="_blank" title="Task Master - Project 3 (GitHub Repo)">
+                            <span class="mdi mdi-24px mdi-github-box">Repo</span></a> |
+                            <a href="https://kanbantaskmaster.herokuapp.com/" target="_blank" title="Task Master - Project Management App with Kanban Board">Task Master</a>
+                        </p>
                       </div>
                     </div>
                   </div>
 
                   <div class="carousel-item" href="#seven!">
-                    <div class="card">
+                    <div class="card projects">
                       <div class="card-image">
-                        <img class="activator" src="./public/img/project4-placeholder.jpg">
+                        <img class="activator" src="./public/img/project4-placeholder.jpg" alt="photo of a ball with lights" title="Find out more about this Django/Python eCommerce App">
                       </div>
                       <div class="card-content">
                         <span class="card-title activator">
                           <a href="https://tbey.herokuapp.com/" target="_blank" title="TBEY Django/Python App">TBEY</a>
-                          <i class="material-icons right">more_vert</i></span>
+                          <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
                           <div class="black-text">
-                            <span>
-                              Tech Used:
+                            <span title="Technology Used">
+                              <!-- Tech Used: -->
                               HTML5<span class="mdi mdi-18px mdi-language-html5"></span>
-                              Django /
-                              Python<span class="mdi mdi-18px mdi-language-python"></span>
+                              Django/Python<span class="mdi mdi-18px mdi-language-python"></span>
+                              Postgres<span class="mdi mdi-18px mdi-database"></span>
                             </span>
                           </div>
                       </div>
                       <div class="card-reveal">
-                        <span class="card-title black-text">eCommerce App<i class="material-icons right">close</i></span>
+                        <span class="card-title black-text"><i class="tiny material-icons right">close</i>eCommerce App</span>
                         <p class="grey-text text-darken-4">Django/Python single page app that allows users to create an account
                           to shop amongst the other vendors within the app. Users can create their own store and manage products within their
-                          store. There is no payment system within this version.
-                          <a href="https://github.com/Tim-Hass-GA/tbey_project_4" target="_blank" title="TBEY - Project 4">
-                            <span class="mdi mdi-24px mdi-github-box"></span></a></p>
+                          store. There is no payment system within this version.<br>
+                          <a href="https://github.com/Tim-Hass-GA/tbey_project_4" target="_blank" title="TBEY - Project 4 (GitHub Repo)">
+                            <span class="mdi mdi-24px mdi-github-box">Repo</span></a> |
+                          <a href="https://tbey.herokuapp.com/" target="_blank" title="Visit the TBEY Django/Python App and create an account">TBEY</a>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -345,7 +374,13 @@
           <div class="col s12">
             <section id="interests" class="col s12 m6">
               <div class="interests-list">
-                <h3>Interests</h3>
+                <h5>About Me</h5>
+                <p>
+                  I'm fascinated by the creative process. It’s truly magical to
+                  create something from nothing, to use words and symbols to
+                  bring people’s ideas to life.
+                </p>
+                <h5>Interests</h5>
                 <ul>
                   <li>Photography</li>
                   <li>Hiking/Camping</li>
@@ -355,18 +390,21 @@
             </section>
             <!-- TODO: work on this section -->
             <section id="flickr" class="col s12 m6">
-              <div class="flickr-images">
-                <h3>Contact Me</h3>
-                <ul>
-                  <li>Thanks for visiting my site. I would enjoy hearing from you.</li>
-                  <li><a href="mailto:hasstimh@gmail.com">hasstimh@gmail.com</a></li>
-                </ul>
-                <!-- <div id="flickr-carousel" class="carousel">
+              <div class="contact-temp">
+                <h5>Contact Me</h5>
+                <p>
+                  Thanks for visiting my site. I would enjoy hearing from you.
+                  <a href="mailto:hasstimh@gmail.com">hasstimh@gmail.com</a>
+                </p>
+              </div>
+              <!-- TODO: work on this section -->
+              <!-- <div class="flickr-images">
+                <div id="flickr-carousel" class="carousel">
                   <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
                   <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
                   <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
-                </div> -->
-              </div>
+                </div>
+              </div> -->
             </section>
           </div>
         </div>

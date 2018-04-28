@@ -24,43 +24,38 @@ WEB DEVELOPMENT IMMERSIVE​, GENERAL ASSEMBLY,​ ​Seattle, WA​ ​(Jan 201
 - Tic-Tac-Toe - HTML5/CSS/Javascript, Tic-Tac-Toe Game.
 - jQuery To Do List - HTML5/CSS/Javascript, jQuery To Do List.
 - EIE.io Backyard Garden App - Express/Node/Postgres, allows users to create and track garden activities.
-- TaskMaster - React/Redux - Project Management Tool, allows users to create and track project activities.
-- TBEY - Django/Python - Online Store, allows users to create a vendor account and/or order products.
-- Dino-Diggs - React/Redux - Cohort Hack-a-thon, dinosaur users can book a nice cave to stay in for their trip.
+- TaskMaster - React/Redux/Mongo - Project Management Tool, allows users to create and track project activities.
+- TBEY - Django/Python/Postgres - Online Store, allows users to create a vendor account and/or order products.
+<!-- - Dino-Diggs - React/Redux - Cohort Hack-a-thon, dinosaur users can book a nice cave to stay in for their trip. -->
 
 ### Edmonds Community College, Lynnwood, WA (​June 2010 - Jan 2018​)
-Learning Support Systems Administrator​ (Canvas by Instructure)
-- Created and maintained Javascript and Cascade Style Sheets (CSS) files used for college branding
-and DOM manipulation.
-- Integrated and managed Learning Tool Interoperability (LTIs); such as, Panopto, McGraw Hill,
-Google Apps, EvalutionKit, and other third party solutions.
-- Created, managed and problem-solved user account and course issues.
-- Preformed quarterly system configuration and course shell management.
-- Provided course and user analytics and reporting for investigations.
+Learning Management Systems Administrator​ (Canvas by Instructure)
+- Created and maintained Javascript and Cascade Style Sheets (CSS) files used for college branding and DOM manipulation.
+- Integrated and managed Learning Tool Interoperability (LTIs), such as Panopto, McGraw Hill, Google Apps, EvalutionKit, and other third party solutions.
+- Created, managed and problem-solved student and faculty user account issues.
+- Preformed quarterly system configuration and responded to online course issues.
+- Provided online course and end user reporting services.
 
 ### Student Gmail / G Suite Systems Administrator
-- Managed and created user accounts and troubleshoot account issues.
-- Monitored and responded to suspicious account activity reports.
-- Established Student Chromebook Lab (35 devices) and integrated with college Gmail (G Suite)
-domain, allowing admin access for device management through the Gmail administrator dashboard.
+- Respond to end user questions and troubleshoot user account issues.
+- Monitored and responded to suspicious account activity reports.  
+- Established Student Chromebook Lab and integrated with college Gmail (G Suite) domain.
 
 ### Student Technology Advice & Resource Team (START) Program Coordinator
 - Conceived, procured funding for, implemented and managed student help desk that became institutionalized after the initial pilot phase.
-- Maintained budgets, created operational procedures, oversaw development of knowledge base for student body.
+- Maintained budgets, created operational procedures and oversaw development of knowledge base for student body.
 - Recruited, trained and mentored student employees and volunteers.
 - Partnered with and reported to Student Executive Board, Instructional Leadership, and Information Technology Director on project outcomes.
 
 ### Business Systems Analyst
-- Conducted interviews with end users to gather system requirements, created system models, business process diagrams, and system requirements documentation.
-- Performed a Gap Analysis on an in-house application and produced a report on findings.
+- Performed Gap Analysis on an in-house application and produced a report on findings.
+- Conducted interviews with end users to gather system and user requirements.
+- Created system models, business process diagrams, and system requirements documentation.
 
 ## ​WORK EXPERIENCE
 National Subject Matter Expert - Global Property & Administration Department​, Mercer, Seattle, WA (Oct 1999 - May 2009)
-- Project Manager and System Administrator for Events Management Software (EMS) Software in multiple offices across the US and Canada.
-- Implemented and coordinated activities for the West Coast Business Continuity and Emergency Plans.
-- Managed and supported Ergonomics, Facilities, Safety, Security, and other Real-estate Projects both locally
-and nationally.
-Gas Turbine Systems Technician (Electrical) 2nd Class/E5/GSE2​, US NAVY (June 1991 - Oct 1999)
+- Implemented Events Management Software (EMS) Software in multiple offices across the US and Canada, allowing employees access to reserve rooms and resources in associated offices.
+- Managed and supported ergonomics, facilities, safety, security, and other real-estate projects both locally and nationally.
 
 ## ​EDUCATION
 GENERAL ASSEMBLY, ​Seattle, WA​ ​(Jan 2018 - April 2018)
@@ -69,9 +64,6 @@ GENERAL ASSEMBLY, ​Seattle, WA​ ​(Jan 2018 - April 2018)
 Edmonds Community College​, Lynnwood, WA (Aug 2009 –May 2012)
 Computer Information Systems
 - Associate of Technical Arts: Web Application Developer & Database Information Technologies Business Systems Analyst Certification
-
-<!-- US Navy
-- Gas Turbine Systems Jet Propulsion Electronics “A” School ​(Aug 1991 – Sept 1992) -->
 
 <!-- # Source files -->
 <!-- heroku -->
