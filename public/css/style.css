@@ -29,9 +29,17 @@ img.me {
   padding: .25em;
 }
 
-/* .card .projects {
+.card .card-action {
   padding: .25em;
-  width: 3em;
+  text-align: center;
+}
+
+.card-action > a {
+  margin: 0;
+}
+
+/* .projects > span {
+  margin: 0;
 } */
 
 /* .flicker-images {} */

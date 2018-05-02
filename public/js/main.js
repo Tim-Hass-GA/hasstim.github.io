@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('.collapsible').collapsible();
 
   // Initialize carousel for flickr items
-  $('.carousel').carousel();
+  // $('.carousel').carousel();
 
   // $('#flickr-carousel.carousel').carousel();
 
