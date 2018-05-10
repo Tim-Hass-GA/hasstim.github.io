@@ -6,11 +6,20 @@ html, body {
 }
 
 /* header {} */
-/* .container {} */
+.row {
+  margin: .35em auto;
+  border-radius: .35em;
+}
 
 .me {
   text-align: left;
   margin: .15em;
+}
+
+h3 {
+  padding-top: 5px;
+  margin: 0 auto;
+  color: #fff;
 }
 
 img.me {
